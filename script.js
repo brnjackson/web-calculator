@@ -1,23 +1,66 @@
-function sum () {
-    var numb1 = Number (document.getElementById ("numberinput1").value);
-    var  numb2 = Number (document.getElementById ("numberinput2").value);
-    document.getElementById ("answersum").innerHTML = numb1 + numb2;
+function calculate() {
+
+    let a = Number (document.getElementById ("value1").value);
+    let b = Number (document.getElementById ("value2").value);
+    let operator = document.getElementById ("operator").value;
+   
+    let result=0;
+   
+    if (operator == "add") {
+        result = a+b;
+    }
+    else if (operator == "subtract"){
+        result = a-b;
+    }
+    else if (operator == "multiply"){
+        result = a*b;
+    }
+    else if (operator == "divide"){
+        result = a/b;
+    }
+    document.getElementById ("result1").innerHTML = result;
+
+    switch (operator){
+        case "add":
+            result = "brittney";
+          break;
+        case "subtract":
+            result = "medicine";
+          break;
+        case "multiply":
+            result = "chocolate"
+          break;
+        case "divide":
+            result = "lasagna";
+    
+            
+    }
+    document.getElementById ("result2").innerHTML = result; 
 }
 
-function subtract () {
-    var numb1 = Number (document.getElementById ("numberinput3").value);
-    var numb2 = Number (document.getElementById ("numberinput4").value);
-    document.getElementById ("answersubtract").innerHTML = numb1 - numb2;
-}
+  
+/*document.getElementById ("brittney").innerHTML = "human";
 
-function multiply () {
-    var numb1 = Number (document.getElementById ("numberinput5").value);
-    var numb2 = Number (document.getElementById ("numberinput6").value);
-   document.getElementById ("answermultiply").innerHTML = numb1 * numb2;
-}
+let Johnage = 23
+document.getElementById("john").innerHTML = Johnage;
+let Johnage2 = Johnage * 2;
+document.getElementById("john2").innerHTML = Johnage2;
+document.getElementById("john2clone").innerHTML = Johnage2;
+document.getElementById("johnclone").innerHMTL= Johnage;
 
-function divide () {
-    var numb1 = Number (document.getElementById ("numberinput7").value);
-    var numb2 = Number (document.getElementById ("numberinput8").value);
-    document.getElementById ("answerdivide").innerHTML = numb1 / numb2;
-}
+
+/*if the selected value from the dropdown is add
+    result 1= value1 + value2; 
+
+    if the selected value from the dropdown is subtract
+    result 1= value1 - value2; 
+
+    if the selected value from the dropdown is multiply
+    result 1= value1 * value2; 
+
+    if the selected value from the dropdown is divide
+    result 1= value1 / value2; 
+
+    document.getElementById ("dropdownmenu").value; - need to get selected value
+    from "dropdownmenu"
+*/
