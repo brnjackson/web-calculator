@@ -11,39 +11,23 @@
   
 </head>
 <body>
+    <center>
+    <h1>Web Calculator</h1>
+    <b>Type a number in each box, select an operator and click 'Submit' to see the result! </b> <br> <br>
 
-    <center><h1>Web Calculator</h1>
-        
-        <b>Type a number in each box, select an operator and click 'Submit' to see the result! </b> <br> <br>
-
-        <body>
-            <input type="text" id="value1" />   
-            
-            <select id="operator">
-                <option value="add" id="add">+</option>
-                <option value="subtract" id="subtract">-</option>
-                <option value="multiply" id="multiply">*</option>
-                <option value="divide" id="divide">/</option>
-              </select> 
+    <input type="text" id="value1" />   
+        <select id="operator">
+            <option value="add" id="add">+</option>
+            <option value="subtract" id="subtract">-</option>
+            <option value="multiply" id="multiply">x</option>
+            <option value="divide" id="divide">	÷</option>
+        </select> 
               
-            
-            
-            <input type="text" id="value2" /> 
-            
-            <span id="result1">0</span>
-            <span id="result2">0</span>
-
-        
-            
-           <input type ="submit" onclick="calculate()" />
-
-           <script src="script.js"></script>
-            
-          </body>
-          
-  
- 
+    <input type="text" id="value2" /> 
+    <span id="result1">0</span>
+    <input type ="submit" onclick="calculate()" />
     
-      
+    <script src="script.js"></script>
+            
 </body>
 </html>

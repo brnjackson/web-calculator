@@ -1,19 +1,47 @@
-body {background-color:#6497B1; font-family: Arial, Helvetica, sans-serif; font-size: 50px; color: white; line-height: 50px;}
+body {
+  background-color:#6497B1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 50px; 
+  color: white; 
+  line-height: 50px;
+  }
+b {
+  color: white; 
+  font-size: 16px;
+  }
+o {
+  color: black; 
+  font-size: 50px; 
+  text-decoration: none;
+  }
+a:visited {
+  color:white; 
+  text-decoration: none;
+  }
+h1 {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #38505c; 
+  font-size: 50px; 
+  letter-spacing: -3px; 
+  padding-bottom:;
+  }
+  
+select {
+  font-size: 50px;
+  background-color: rgb(201, 201, 201);
+  border: none;
 
-b {color: white; font-size: 16px;}
-o {color: black; font-size: 50px; text-decoration: none;}
-a:visited {color:white; text-decoration: none;}
-            h1 {font-family: Arial, Helvetica, sans-serif; color: #38505c; font-size: 50px; letter-spacing: -3px; padding-bottom:;}
-            h2 {font-family: Arial, Helvetica, sans-serif; color: palegoldenrod; font-style: italic; font-size: 25px;}
-            p {width: 500px; text-align: center;}
-            #sqr { width: 150px; height: 150px; background-color: 
-          lightgreen;}
-            #crcl { width: 150px; height: 150px; background-color: moccasin; border-radius: 90px;}
+}
 
 input[type="text"] {
-    font-size:50px; width:150px; text-align: center; background-color: lightblue; border: none;
-}
-  input[type="submit"] {
+    font-size:50px; 
+    width:150px; 
+    text-align: center; 
+    background-color: lightblue; 
+    border: none;
+  }
+  
+input[type="submit"] {
   background-color: #38505c;
   border: 3px;
   color: white;
@@ -24,17 +52,7 @@ input[type="text"] {
   font-size: 30px;
   text-transform:;
     width: 150px;
-}
+  } 
 
-  input[type="reset"] {
-  background-color: #38505c;
-  border: 3px;
-  color: white;
-  padding: 10px ;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  text-transform:;
-    width: 150px;
-}
+  
+  
